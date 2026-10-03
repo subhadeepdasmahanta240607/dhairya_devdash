@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+*/node_modules/
+
+# Production build artifacts
+frontend/dist/
+dist/
+
+# Environment and secrets
+.env
+backend/.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Third-party tools & binaries
+ngrok/
+scratch/
+
+# Local poster & slide docs
+docs/Dhairya_Technical_Architecture_*
+backend/scripts/generate_technical_architecture_poster.js
+frontend/dev-dist/
